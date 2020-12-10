@@ -4,56 +4,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KILowrey</title>
+  <title>Kira Lowrey</title>
   <!-- insert little webpage emoticon here -->
   <link rel="stylesheet" href="./stylesheets/reset.css">
-  <link rel="stylesheet" hred="./stylesheets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 
 <body>
 
   <!--header w/ important stuff-->
-  <header>
-    <h1>Kira Lowrey on GitHub</h1>
+  <header class="parchment">
+    <h1>Kira Lowrey</h1>
   </header>
 
   <!--sidebar on the left of main-->
-  <aside>
-    <h3>Find Me</h3>
-    <img href="./images/KIL-profesh.jpg">
+  <aside class="parchment container clearfix">
+    <h2>Connect</h2>
+    <img src="./images/KIL-profesh.jpg" id="profPic" class="" alt="Kira Lowrey from the sholders up with greenery behind">
     <nav>
       <!--social media icons as links-->
+      <div class="row icons">
+        <a href="https://github.com/KILowrey"><img class="media-icon" src="./images/github-icon.png" alt="GitHub icon" /></a>
+        <a href="https://www.linkedin.com/in/kira-lowrey-209533171/"><img class="media-icon" src="./images/linkedin-icon.png" alt="LinkedIn icon" /></a>
+        <a href="https://stackoverflow.com/users/13537503/kira-i-lowrey"><img class="media-icon" src="./images/stackoverflow-icon.png" alt="StackOverflow icon" /></a>
+      </div>
       <!--twitter link-->
-      <!--resume link-->
+      <a href="https://twitter.com/Bismuth8881" id="twitter-link"><img class="mini-icon" src="./images/twitter-icon.png" alt="Twitter icon"> @Bismuth8881</a>
+      <!--resume-->
+      <a href="https://drive.google.com/file/d/1rsrCS1bqdopw81ILlEJx-OYmY4tIrzql/view?usp=sharing" id="resume-link">My Resume</a>
     </nav>
   </aside>
 
   <!--main-->
   <main>
     <!--section with my image where I talk about who I am-->
-    <section>
-
+    <section class="parchment container clearfix">
+      <h2>About Me</h2>
+      <img src="./images/KIL-with-a-horse.JPG" id="aboutPic" class="" alt="Kira Lowrey on one knee in an open area petting a minature horse">
+      <p>I was born into a U.S. Military family in 2000. Thanks to that, I have lived all over the world and gotten to experience many cultures throughout my childhood. I especially have great fondness for Chinese cultural events, such as the Mid-Autumn Lantern Festival.</p>
+      <p>I am currently taking a Full Stack Web Development course with UCSD Extension in hopes to enter the programming field. Being on the Spectrum, I’ve found that coding plays very well to my strengths, such as learning rules and remembering random tidbits of information.</p>
+      <p>I want to create websites that are fun, but also easily accessible to people with varieties of disabilities. Maybe one day, if I ever get good enough at pixel art, I’ll make a webcomic that everyone can read (filled with coding jokes of course).</p>
     </section>
     <!--portfolio section-->
-    <section>
+    <section class="parchment container clearfix">
+      <h2>Notable Projects</h2>
       <!--project 2. replace w/ project 3 later.-->
       <article>
-
+        <h3>Hypnos</h3>
+        <div id="hypnos-images">
+          <img src="./images/hypnos1.PNG" class="app-img" alt="Hypnos home page">
+          <img src="./images/hypnos2.PNG" class="app-img" alt="Hypnos home page part 2">
+        </div>
+        <ul>
+          <li><a href="https://project-hypnos.herokuapp.com/">Deployed App on Heroku</a></li>
+          <li><a href="https://github.com/KILowrey/hypnos">GitHub Repository</a></li>
+        </ul>
+        <p>An app to help people sleep well.</p>
       </article>
       <!--project 1. replace w/ project 2 later.-->
       <article>
-
+        <h3>Fab 5's Fantastic Foods</h3>
+        <img src="./images/mealplanner.PNG" class="app-img" alt="meal planner main page">
+        <ul>
+          <li><a href="https://tbsanders5.github.io/mealplanner/">Deployed App on GitHub Pages</a></li>
+          <li><a href="https://github.com/KILowrey/mealplanner">GitHub Repository</a></li>
+        </ul>
+        <p>A meal planner.</p>
       </article>
       <!--a good homework. replace with project 1 later.-->
       <article>
-
+        <h3>Portfolio</h3>
+        <ul>
+          <li><a href="https://KILowrey.github.io/">You are already here!</a></li>
+          <li><a href="https://github.com/KILowrey/KILowrey.github.io">GitHub Repository</a></li>
+        </ul>
+        <p>A basic portfolio page.</p>
       </article>
     </section>
   </main>
-  
+
   <!--footer w/ copyright and stuff-->
-  <footer>
-    <!--insert footer stuff here-->
+  <footer class="parchment">
+    <p class="footer-text">© 2020 Kira Lowrey</p>
   </footer>
 
 </body>
